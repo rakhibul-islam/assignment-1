@@ -271,6 +271,7 @@ body {
   min-height: 60vh;
   max-width: 80%;
   margin: 3rem auto;
+  border-radius: 0.7rem;
   background: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("./assets/handshake.jpg") no-repeat center;
   background-size: cover;
@@ -310,6 +311,19 @@ footer {
 
 /* responsive section starts*/
 @media (max-width: 768px) {
+  .navbar {
+    
+    gap: 4rem;
+  }
+  .hero_container {
+    padding: 0;
+  }
+  .hero{
+    min-height: 60vh;
+  }
+  .hero_title{
+    font-size: 1.3rem;
+  }
   .banner_parent,
   .cards {
     grid-template-columns: repeat(1, 1fr);
@@ -323,8 +337,13 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    margin: 2rem;
+    
   }
+  #feedback{
+    width:15rem;
+    margin: 0 auto;
+  }
+ 
   .next_target_card_1,
   .next_target_card_2,
   .next_target_card_3 {
