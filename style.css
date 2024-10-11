@@ -102,7 +102,7 @@ body {
 .development {
   border-radius: 1rem;
   background: rgba(13, 19, 33, 0.02);
- 
+
   max-width: 80%;
   margin: 3rem auto;
   padding: 5rem 0;
@@ -241,10 +241,10 @@ body {
 .next_target_cards {
   gap: 2.5rem;
 }
-.next_target_image{
+.next_target_image {
   flex: 1;
 }
-.next_target_details{
+.next_target_details {
   flex: 6;
 }
 .next_target_cards > article {
@@ -308,35 +308,34 @@ footer {
 }
 /* footer section ends here */
 
-/* responsive */
+/* responsive section starts*/
 @media (max-width: 768px) {
-  .banner_parent ,.cards{
+  .banner_parent,
+  .cards {
     grid-template-columns: repeat(1, 1fr);
   }
-  .development{
+  .development {
     min-width: 100%;
     margin: 0;
     padding: 1rem auto;
   }
-  .feedback_input_parent{
-
-display: flex;
-flex-direction: column;
-gap: 2rem;
-margin: 2rem;
-
-    
+  .feedback_input_parent {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 2rem;
   }
-  .next_target_card_1,.next_target_card_2,.next_target_card_3{
+  .next_target_card_1,
+  .next_target_card_2,
+  .next_target_card_3 {
     flex-direction: column;
   }
-  .feedback_btn{
+  .feedback_btn {
     margin: 2rem 5rem 0;
   }
-  .footer_container{
+  .footer_container {
     flex-direction: column;
     gap: 2rem;
   }
- 
- 
 }
+/* responsive section ends here */
