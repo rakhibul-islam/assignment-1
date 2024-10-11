@@ -29,6 +29,10 @@ body {
 .section-subtitle {
   font-size: 0.7rem;
   font-weight: 400;
+  text-align: center;
+}
+.section-gap {
+  gap: 2rem;
 }
 .flex-space-around {
   display: flex;
@@ -41,7 +45,15 @@ body {
   justify-content: center;
   align-items: center;
 }
+.flex-start{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+
+}
 /* reset and common code ends here */
+
 
 /* header section starts here */
 /* navbar section starts here */
@@ -67,7 +79,6 @@ body {
   background-attachment: fixed;
 }
 .hero_container {
-  gap: 2rem;
   padding: 0 5rem;
 }
 .hero_details {
@@ -87,7 +98,67 @@ body {
 /* hero section ends here */
 /* header section ends here */
 
+
 /* main section starts here */
+/* inspiration section starts here */
+.inspiration {
+  max-width: 80%;
+  margin: 3rem auto;
+  gap: 3rem;
+}
+.inspiration_details {
+  gap: 1.5rem;
+  text-align: center;
+}
+.video_container {
+  width: 100%;
+  height: 100%;
+}
+.video {
+  width: 100%;
+  height: 25rem;
+}
+/* inspiration section ends here */
+
+/* current target section starts here */
+.current_target{
+  max-width: 80%;
+  margin: 3rem auto;
+}
+.cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+}
+
+.card {
+  min-height: 18rem;
+  border-radius: 16px;
+  padding: 2rem;
+  background: rgba(255, 76, 30, 0.05);
+  gap: 1rem;
+ 
+}
+.card_title{
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+.card_details{
+  gap: 1rem;
+}
+.current_target_description{
+  text-align: justify;
+}
+.current_target_more{
+  font-size: 0.7rem;
+  text-decoration: underline;
+  font-weight: 700;
+  cursor: pointer;
+}
+/* current target section ends here */
+
 /* feedback section starts here */
 .feedback {
   min-height: 60vh;
@@ -97,7 +168,6 @@ body {
     url("./assets/handshake.jpg") no-repeat center;
   background-size: cover;
   color: white;
-  text-align: center;
   gap: 2rem;
 }
 #feedback {
@@ -121,27 +191,6 @@ body {
 
 /* feedback section ends here */
 
-/* inspiration section starts here */
-.inspiration{
-  max-width: 80%;
-  margin: 3rem auto;
-  gap: 3rem;
-}
-.inspiration_details{
-  gap: 1.5rem;
-  text-align: center;
-}
-.video_container{
-  width: 100%;
-  height: 100%;
-  
-}
-.video{
-  width: 100%;
-  height: 25rem;
- 
-}
-/* inspiration section ends here */
 /* main section starts here */
 
 /* footer section starts here */
