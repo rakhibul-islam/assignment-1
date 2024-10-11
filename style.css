@@ -327,11 +327,38 @@ footer {
   .banner_parent,
   .cards {
     grid-template-columns: repeat(1, 1fr);
+    
   }
   .development {
     min-width: 100%;
     margin: 0;
     padding: 1rem auto;
+  }
+ 
+ #item_1{
+  order: 2;
+ }
+ #item_2{
+  order: 1;
+ }
+ #item_3{
+  order: 3;
+ }
+ #item_4{
+  order: 4;
+ }
+ #item_5{
+  order: 6;
+ }
+ #item_6{
+  order: 5;
+
+ }
+ 
+  .next_target_card_1,
+  .next_target_card_2,
+  .next_target_card_3 {
+    flex-direction: column;
   }
   .feedback_input_parent {
     display: flex;
@@ -342,12 +369,6 @@ footer {
   #feedback{
     width:15rem;
     margin: 0 auto;
-  }
- 
-  .next_target_card_1,
-  .next_target_card_2,
-  .next_target_card_3 {
-    flex-direction: column;
   }
   .feedback_btn {
     margin: 2rem 5rem 0;
