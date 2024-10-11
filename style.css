@@ -23,7 +23,7 @@ body {
   padding: 0.7rem 1rem;
   cursor: pointer;
 }
-.btn:hover{
+.btn:hover {
   background-color: violet;
   color: white;
   border: none;
@@ -101,7 +101,7 @@ body {
   padding: 1rem 1.5rem;
   cursor: pointer;
 }
-.hero_btn:hover{
+.hero_btn:hover {
   background-color: violet;
   border: none;
 }
@@ -113,7 +113,6 @@ body {
 .development {
   border-radius: 1rem;
   background: rgba(13, 19, 33, 0.02);
-
   max-width: 80%;
   margin: 3rem auto;
   padding: 5rem 0;
@@ -168,7 +167,7 @@ body {
   padding: 0.7rem 1rem;
   cursor: pointer;
 }
-.banner_btn:hover{
+.banner_btn:hover {
   background-color: violet;
   color: white;
   border: none;
@@ -220,7 +219,7 @@ body {
   gap: 1rem;
 }
 .card:hover {
-  box-shadow: 0.1rem 0.2rem 0.8rem rgba(205, 202, 202,0.9);
+  box-shadow: 0.1rem 0.2rem 0.8rem rgba(205, 202, 202, 0.9);
 }
 #card_html {
   background-color: rgba(255, 76, 30, 0.05);
@@ -248,7 +247,6 @@ body {
   font-weight: 700;
   cursor: pointer;
   color: black;
- 
 }
 /* current target section ends here */
 
@@ -335,59 +333,58 @@ footer {
 /* responsive section starts*/
 @media (max-width: 768px) {
   .navbar {
-    
     gap: 4rem;
   }
   .hero_container {
     padding: 1rem;
   }
-  .hero{
+  .hero {
     min-height: 60vh;
     padding: 3rem 0.2rem;
   }
-  .hero_title{
+  .hero_title {
     font-size: 1.2rem;
   }
   .banner_parent,
   .cards {
     grid-template-columns: repeat(1, 1fr);
-    
   }
   .development {
     min-width: 100%;
-    margin: 0;
-    padding: 1rem auto;
+    margin: 0 auto;
+    padding: 1rem;
   }
-  .development_description{
+  .development_description {
     text-align: justify;
   }
-  .banner_parent{
+  .banner_parent {
     gap: 0;
   }
-  
- 
- #item_1{
-  order: 2;
-  margin-bottom: 2rem;
- }
- #item_2{
-  order: 1;
- }
- #item_3{
-  order: 3;
- }
- #item_4{
-  order: 4;
-  margin-bottom: 2rem;
- }
- #item_5{
-  order: 6;
- }
- #item_6{
-  order: 5;
+  .banner_content,
+  .banner_image {
+    padding: 1rem;
+  }
+  #item_1 {
+    order: 2;
+    margin-bottom: 2rem;
+  }
+  #item_2 {
+    order: 1;
+  }
+  #item_3 {
+    order: 3;
+  }
+  #item_4 {
+    order: 4;
+    margin-bottom: 2rem;
+  }
+  #item_5 {
+    order: 6;
+  }
+  #item_6 {
+    order: 5;
+  }
 
- }
- 
   .next_target_card_1,
   .next_target_card_2,
   .next_target_card_3 {
@@ -397,10 +394,9 @@ footer {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    
   }
-  #feedback{
-    width:15rem;
+  #feedback {
+    width: 15rem;
     margin: 0 auto;
   }
   .feedback_btn {
