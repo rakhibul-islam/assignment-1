@@ -1,0 +1,136 @@
+/* google fonts azeret mono */
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* reset and common code starts here */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Azeret Mono", monospace;
+}
+.btn {
+  border: 1px solid rgb(13, 19, 33);
+  border-radius: 8px;
+  opacity: 0.8;
+  padding: 0.7rem 1rem;
+}
+.section-title {
+  font-size: 2rem;
+}
+.section-subtitle {
+  font-size: 1rem;
+}
+.flex-space-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.flex-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* reset and common code ends here */
+
+/* header section starts here */
+/* navbar section starts here */
+.nav {
+  min-height: 10vh;
+}
+.navbar {
+  padding: 2rem;
+  gap: 10rem;
+}
+.dev_name {
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+  font-weight: 800;
+}
+/* navbar section starts here */
+
+/* hero section starts here */
+.hero {
+  min-height: 80vh;
+  background: url("./assets/Hero-bg.png") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.hero_container {
+  gap: 2rem;
+  padding: 0 5rem;
+}
+.hero_details {
+  text-align: center;
+  gap: 2rem;
+}
+.hero_title {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.hero_btn {
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  color: white;
+  padding: 1rem 1.5rem;
+}
+/* hero section ends here */
+/* header section ends here */
+
+/* main section starts here */
+/* feedback section starts here */
+  .feedback{
+    min-height: 60vh;
+    max-width: 80%;
+    margin: 3rem auto;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/handshake.jpg") no-repeat center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    gap: 2rem;
+    
+  }
+  #feedback{
+    width: 20rem;
+    height: 2.5rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 0.2rem;
+  }
+  .feedback_title{
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding-bottom: 2rem;
+  }
+  .feedback_subtitle{
+    font-size: 0.7rem;
+    font-weight: 200;
+   
+  }
+  .feedback_btn{
+background-color: white;
+border-radius: 0.5rem;
+padding: 0.8rem 2rem;
+border: none;
+font-weight: 600;
+   
+  }
+  
+/* feedback section ends here */
+/* main section starts here */
+
+/* footer section starts here */
+footer{
+  min-height: 5vh;
+  padding:  1rem 0;
+  background: rgba(13, 19, 33, 0.03);
+}
+/* footer section ends here */
