@@ -23,10 +23,12 @@ body {
   padding: 0.7rem 1rem;
 }
 .section-title {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  font-weight: 800;
 }
 .section-subtitle {
-  font-size: 1rem;
+  font-size: 0.7rem;
+  font-weight: 400;
 }
 .flex-space-around {
   display: flex;
@@ -87,54 +89,65 @@ body {
 
 /* main section starts here */
 /* feedback section starts here */
-  .feedback{
-    min-height: 60vh;
-    max-width: 80%;
-    margin: 3rem auto;
-    background: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/handshake.jpg") no-repeat center;
-    background-size: cover;
-    color: white;
-    text-align: center;
-    gap: 2rem;
-    
-  }
-  #feedback{
-    width: 20rem;
-    height: 2.5rem;
-    padding: 1rem;
-    border: none;
-    border-radius: 0.2rem;
-  }
-  .feedback_title{
-    font-size: 1.5rem;
-    font-weight: 800;
-    padding-bottom: 2rem;
-  }
-  .feedback_subtitle{
-    font-size: 0.7rem;
-    font-weight: 200;
-   
-  }
-  .feedback_btn{
-background-color: white;
-border-radius: 0.5rem;
-padding: 0.8rem 2rem;
-border: none;
-font-weight: 600;
-   
-  }
-  
+.feedback {
+  min-height: 60vh;
+  max-width: 80%;
+  margin: 3rem auto;
+  background: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./assets/handshake.jpg") no-repeat center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  gap: 2rem;
+}
+#feedback {
+  width: 20rem;
+  height: 2.5rem;
+  padding: 1rem;
+  border: none;
+  border-radius: 0.2rem;
+}
+.feedback_title {
+  padding-bottom: 2rem;
+}
+
+.feedback_btn {
+  background-color: white;
+  border-radius: 0.5rem;
+  padding: 0.8rem 2rem;
+  border: none;
+  font-weight: 600;
+}
+
 /* feedback section ends here */
 
 /* inspiration section starts here */
-
+.inspiration{
+  max-width: 80%;
+  margin: 3rem auto;
+  gap: 3rem;
+}
+.inspiration_details{
+  gap: 1.5rem;
+  text-align: center;
+}
+.video_container{
+  width: 100%;
+  height: 100%;
+  
+}
+.video{
+  width: 100%;
+  height: 25rem;
+ 
+}
 /* inspiration section ends here */
 /* main section starts here */
 
 /* footer section starts here */
-footer{
+footer {
   min-height: 5vh;
-  padding:  1rem 0;
+  padding: 1rem 0;
   background: rgba(13, 19, 33, 0.03);
 }
 /* footer section ends here */
