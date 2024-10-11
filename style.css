@@ -209,16 +209,36 @@ body {
 .card_details {
   gap: 1rem;
 }
-.current_target_description {
+.target_description {
   text-align: justify;
 }
-.current_target_more {
+.target_more {
   font-size: 0.7rem;
   text-decoration: underline;
   font-weight: 700;
   cursor: pointer;
 }
 /* current target section ends here */
+
+/* next target starts here */
+.next_target{
+  max-width: 80%;
+  margin: 2rem auto;
+}
+.next_target_text{
+padding-bottom: 3rem;
+}
+.next_target_cards{
+  gap: 2.5rem;
+}
+.next_target_card{
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  
+}
+
+/* next target ends here */
 
 /* feedback section starts here */
 .feedback {
