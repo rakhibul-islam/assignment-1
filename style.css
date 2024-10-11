@@ -142,7 +142,7 @@ body {
 .banner_image {
   height: 20rem;
   background-color: white;
-  padding: 2rem;
+  padding: 1rem;
   border-radius: 0.8rem;
 }
 .banner_image {
@@ -360,10 +360,7 @@ footer {
   .banner_parent {
     gap: 0;
   }
-  .banner_content,
-  .banner_image {
-    padding: 1rem;
-  }
+ 
   #item_1 {
     order: 2;
     margin-bottom: 2rem;
