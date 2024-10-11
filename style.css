@@ -23,6 +23,11 @@ body {
   padding: 0.7rem 1rem;
   cursor: pointer;
 }
+.btn:hover{
+  background-color: violet;
+  color: white;
+  border: none;
+}
 .section-title {
   font-size: 1.5rem;
   font-weight: 800;
@@ -95,6 +100,10 @@ body {
   color: white;
   padding: 1rem 1.5rem;
   cursor: pointer;
+}
+.hero_btn:hover{
+  background-color: violet;
+  border: none;
 }
 /* hero section ends here */
 /* header section ends here */
