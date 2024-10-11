@@ -21,6 +21,7 @@ body {
   border-radius: 8px;
   opacity: 0.8;
   padding: 0.7rem 1rem;
+  cursor: pointer;
 }
 .section-title {
   font-size: 1.5rem;
@@ -93,6 +94,7 @@ body {
   background: rgb(13, 19, 33);
   color: white;
   padding: 1rem 1.5rem;
+  cursor: pointer;
 }
 /* hero section ends here */
 /* header section ends here */
@@ -155,6 +157,12 @@ body {
   opacity: 0.7;
   background-color: white;
   padding: 0.7rem 1rem;
+  cursor: pointer;
+}
+.banner_btn:hover{
+  background-color: violet;
+  color: white;
+  border: none;
 }
 
 /* development section ends here */
@@ -202,6 +210,9 @@ body {
   padding: 2rem;
   gap: 1rem;
 }
+.card:hover {
+  box-shadow: 0.1rem 0.2rem 0.8rem rgba(205, 202, 202,0.9);
+}
 #card_html {
   background-color: rgba(255, 76, 30, 0.05);
 }
@@ -227,6 +238,7 @@ body {
   text-decoration: underline;
   font-weight: 700;
   cursor: pointer;
+ 
 }
 /* current target section ends here */
 
@@ -295,6 +307,7 @@ body {
   padding: 0.8rem 2rem;
   border: none;
   font-weight: 600;
+  cursor: pointer;
 }
 
 /* feedback section ends here */
@@ -316,13 +329,14 @@ footer {
     gap: 4rem;
   }
   .hero_container {
-    padding: 0;
+    padding: 1rem;
   }
   .hero{
     min-height: 60vh;
+    padding: 3rem 0.2rem;
   }
   .hero_title{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   .banner_parent,
   .cards {
@@ -334,9 +348,17 @@ footer {
     margin: 0;
     padding: 1rem auto;
   }
+  .development_description{
+    text-align: justify;
+  }
+  .banner_parent{
+    gap: 0;
+  }
+  
  
  #item_1{
   order: 2;
+  margin-bottom: 2rem;
  }
  #item_2{
   order: 1;
@@ -346,6 +368,7 @@ footer {
  }
  #item_4{
   order: 4;
+  margin-bottom: 2rem;
  }
  #item_5{
   order: 6;
